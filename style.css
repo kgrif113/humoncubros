@@ -3,6 +3,7 @@ body {
   width: 100vw;
   height: 100vh;
   scroll-behavior: none;
+  overflow: none;
 }
 
 .header {
@@ -12,7 +13,7 @@ body {
   align-content: center;
   text-align: center;
   font-size: xx-large;
-  width: 100vw;
+  width: 100%;
   font-family: "Bungee Spice", cursive;
 }
 
@@ -24,21 +25,26 @@ body {
   text-align: center;
   font-size: xx-large;
   color: orange;
-  width: 100vw;
+  width: 100%;
   font-family: "Nosifer", cursive;
 }
 
 .videocontainer {
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center; */
+  color: orange;
+  width: 90vw;
+}
+iframe {
+  border: 5px red solid;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
   text-align: center;
-  font-size: 500%;
   color: orange;
-  width: 100vw;
-  font-family: "Nosifer", cursive;
-}
-iframe {
-  border: 5px red solid;
+  width: 100%;
 }
