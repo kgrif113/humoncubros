@@ -56,3 +56,12 @@ iframe {
   align-items: center;
   text-align: center;
 }
+
+.pizzabutton {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px;
+}
