@@ -1,0 +1,38 @@
+body {
+  background-color: black;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 500%;
+  font-family: "Bungee Spice", cursive;
+}
+
+.nuke-quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 500%;
+  color: orange;
+  font-family: "Nosifer", cursive;
+}
+
+.videocontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  font-size: 500%;
+  color: orange;
+  font-family: "Nosifer", cursive;
+}
+iframe {
+  border: 5px red solid;
+}
